@@ -1,0 +1,30 @@
+h3{
+    color: red;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    border-radius: 4px;
+    box-shadow: 5px 4px 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.incidunt{
+    border: 1px solid green;
+    display: inline-block;
+}
+.header{
+    height: 100px;
+    color: white;
+    background-color: bisque;
+    text-align: center;
+    background-image: url('Abdullah\ ibn\ siddiky.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-image: repeat-y; */
+    /* background-size: cover; */
+    background-size: contain;
+}
+.dolor{
+    border: 2px solid peru;
+    height: 50px;
+    
+}

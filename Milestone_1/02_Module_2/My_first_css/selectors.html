@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        p{
+            color: red;
+        }
+        #fifth{
+            font-size: 26px;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .holud, .bold{
+            font-weight: 800;
+        }
+        input[type="password"]{
+            font-size: 30px;
+        }
+        .emroz{
+            color: aqua;
+        }
+        .blog{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3>explore mixed selectors</h3>
+    <p>My <span class="emroz">first Line</span> css</p>
+    <p class="yellow">My second Line css</p>
+    <p>My third Line css</p>
+    <p class="yellow bold">My fourth Line css</p>
+    <p id="fifth" class="holud yellow">My fifth Line css</p>
+    <p class="bold">My sixth Line css</p>
+    <p class="holud">My seventh Line css</p>
+
+    <div class="blog">
+        <h1>My blog</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque voluptates iste incidunt rem iusto atque ipsum qui, minus expedita itaque unde nisi et eum accusantium ex inventore quibusdam reiciendis.</p>
+    </div>
+
+
+    <ul>
+        <li class="yellow">element selector</li>
+        <li>id selector</li>
+        <li>class selector</li>
+        <li>universal selector</li>
+    </ul>
+    <br>
+    <form action="">
+        <input type="text"><br>
+        <input type="password">
+    </form>
+</body>
+</html>

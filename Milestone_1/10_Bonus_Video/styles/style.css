@@ -1,0 +1,25 @@
+h3 {
+    color: peru;
+}
+h3:hover{
+    color: red;
+    background-color: skyblue;
+}
+input:focus {
+    color: blue;
+    /* padding-left: 20px; */
+    outline: 0;
+    border: 5px solid blanchedalmond;
+}
+
+a:visited{
+    color: violet;
+}
+
+/* li:first-child {
+    background-color: purple;
+} */
+
+li:nth-child(2n){
+    background-color: red;
+}

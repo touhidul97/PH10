@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Box with Clear Button</title>
+    <style>
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        input[type="search"]::-webkit-search-cancel-button {
+            -webkit-appearance: searchfield-cancel-button;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <!-- Assuming this is the section of your search box -->
+    <div class="search-container">
+        <label for="search-box">Search your Image here:</label>
+        <input type="search" id="search-box" value="Kung Fu Panda" placeholder="Search...">
+        <button>Search</button>
+    </div>
+
+    <!-- The rest of your HTML code -->
+    <img src="kungfupanda.jpg" alt="Kung Fu Panda">
+    <br>
+    <a href="#">For more click here</a>
+    <hr>
+    <h3>Feedback Form:</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date" placeholder="mm/dd/yyyy"><br><br>
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

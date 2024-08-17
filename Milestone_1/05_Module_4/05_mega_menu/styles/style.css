@@ -1,0 +1,19 @@
+nav > ul > li{
+    display: inline;
+    margin-right: 15px;
+}
+nav  li  a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+}
+
+nav li:hover .dropdown{
+    display: none;
+
+}

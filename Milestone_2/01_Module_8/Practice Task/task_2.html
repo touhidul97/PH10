@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 97vh;
+        }
+        .container-1 {
+            font-size: xx-large;
+            color: rgb(255, 255, 255);
+            background-color: rgb(239, 15, 153);
+            width: 50%;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 4px;
+        }
+
+        .container-2 {
+            display: flex;
+            flex-direction: column;
+            margin: 4px;
+        }
+        .container-2-part-1 {
+            font-size: xx-large;
+            color: rgb(255, 255, 255);
+            background-color: orangered;
+            height: 50%;
+            width: 100vh;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .container-2-part-2 {
+            display: flex;
+            height: 50%;
+        }
+        .pink {
+            margin-top: 4px;
+            margin-right: 4px;
+            font-size: xx-large;
+            color: white;
+            background-color: purple;
+            width: 48vh;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .kala {
+            margin-top: 4px;
+            margin-right: 4px;
+            font-size: xx-large;
+            color: white;
+            background-color: rgb(84, 83, 86);
+            width: 48vh;
+            border: 1px solid white;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        @media screen and (max-width:576px) {
+            .container {
+                flex-direction: column;
+                height: 100%;
+            }
+            .container-1 {
+                width: 97vh;
+                height: 30vh;
+            }
+            .container-2 {
+                width: 97vh;
+                height: 70vh;
+            }
+
+            .container-2-part-1 {
+                height: 50em;
+            }
+
+            .container-2-part-2 {
+                flex-direction: column;
+            }
+
+            .pink {
+                height: 30vh;
+                width: 100%;
+            }
+            .kala {
+                height: 10vh;
+                width: ;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="container-1">
+                1
+            </div>
+            <div class="container-2">
+                <div class="container-2-part-1">
+                    2
+                </div>
+                <div class="container-2-part-2">
+                    <div class="pink">
+                        3
+                    </div>
+                    <div class="kala">
+                        4
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

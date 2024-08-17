@@ -1,0 +1,22 @@
+.swim-container{
+    border: 2px solid peru;
+}
+
+.box {
+    border: 2px solid black;
+    width: 200px;
+    padding: 4px;
+}
+
+.js {
+    position:sticky;
+
+    top: 0px;
+
+}
+0
+.dummy {
+    border: 1px solid brown;
+    width: 200px;
+    height: 200px;
+}
